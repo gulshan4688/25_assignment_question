@@ -5,7 +5,9 @@ using namespace std;
 
 int main() {
     vector<string> arr = {"apple", "banana", "apple", "cherry", "banana", "date"};
-
+    cout << "Original array: ";
+    for (string val : arr) cout << val << " ";
+    cout << endl;
     cout << "Duplicate strings: ";
     for (int i = 0; i < arr.size(); ++i) {
         for (int j = i + 1; j < arr.size(); ++j) {

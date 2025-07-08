@@ -14,6 +14,6 @@ int main() {
         }
     }
 
-    cout << (found ? "Found" : "Not found") << endl;
+    cout <<"The key: "<<key<<" has been "<< (found ? "Found" : "Not found") << endl;
     return 0;
 }
