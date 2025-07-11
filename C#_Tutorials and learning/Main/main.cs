@@ -1,8 +1,8 @@
-﻿// class MainProgram
-// {
-//     public static void Main(string[] args)
-//     {
-//         // here below
+﻿class MainProgram
+{
+    public static void Main(string[] args)
+    {
+        // here below
 
-//     }
-// }
+    }
+}
